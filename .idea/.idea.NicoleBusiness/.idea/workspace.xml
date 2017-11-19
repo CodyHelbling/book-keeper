@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="930da949-552f-4ab4-a2f6-452df6bd7123" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.NicoleBusiness/.idea/contentModel.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.NicoleBusiness/.idea/indexLayout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.NicoleBusiness/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.NicoleBusiness/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.NicoleBusiness/riderModule.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness.sln" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Contracts/IExpenseService.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Contracts/IIncomeService.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Contracts/ITransactionTypeService.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Controllers/ExpenseController.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Controllers/HomeController.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Controllers/IncomeController.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Controllers/TransactionTypeController.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Models/ApiResult.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Models/ErrorViewModel.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Models/Expense.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Models/Income.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Models/NicoleBusinessDbContext.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Models/TransactionType.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/NicoleBusiness.csproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Program.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Properties/launchSettings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Services/ExpenseService.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Services/IncomeService.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Services/TransactionTypeService.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Startup.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Views/Expense/Expense.cshtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Views/Home/Contact.cshtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Views/Home/Index.cshtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Views/Income/Income.cshtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Views/Shared/Error.cshtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Views/Shared/_Layout.cshtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Views/TranactionType/TransactionTypeModal.cshtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Views/_ViewImports.cshtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/Views/_ViewStart.cshtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/appsettings.Development.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/appsettings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/bundleconfig.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/css/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/css/site.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/images/banner1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/images/banner2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/images/banner3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/images/banner4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/js/site.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/js/site.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/js/transaction-type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/bootstrap/dist/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery-validation/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery-validation/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery-validation/dist/additional-methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery-validation/dist/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery/dist/jquery.min.map" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.47324842">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="IncomeController.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/IncomeController.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding>
+                    <marker date="1511062123000" expanded="true" signature="6:92" ph="..." />
+                    <marker date="1511062123000" expanded="true" signature="130:627" ph="{...}" />
+                    <marker date="1511062123000" expanded="true" signature="179:625" ph="{...}" />
+                    <marker date="1511062123000" expanded="true" signature="312:376" ph="{...}" />
+                    <marker date="1511062123000" expanded="true" signature="432:619" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="IncomeService.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Services/IncomeService.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+                  <folding>
+                    <marker date="1511071163000" expanded="false" signature="6:197" ph="..." />
+                    <marker date="1511071163000" expanded="true" signature="232:1827" ph="{...}" />
+                    <marker date="1511071163000" expanded="true" signature="282:1825" ph="{...}" />
+                    <marker date="1511071163000" expanded="true" signature="413:469" ph="{...}" />
+                    <marker date="1511071163000" expanded="true" signature="511:1819" ph="{...}" />
+                    <marker date="1511071163000" expanded="true" signature="537:1717" ph="{...}" />
+                    <marker date="1511071163000" expanded="true" signature="631:1670" ph="{...}" />
+                    <marker date="1511071163000" expanded="true" signature="782:1054" ph="{...}" />
+                    <marker date="1511071163000" expanded="true" signature="1527:1652" ph="{...}" />
+                    <marker date="1511071163000" expanded="true" signature="1748:1809" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ExpenseController.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/ExpenseController.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+                  <folding>
+                    <marker date="1511063330000" expanded="true" signature="6:92" ph="..." />
+                    <marker date="1511063330000" expanded="true" signature="130:570" ph="{...}" />
+                    <marker date="1511063330000" expanded="true" signature="180:568" ph="{...}" />
+                    <marker date="1511063330000" expanded="true" signature="310:376" ph="{...}" />
+                    <marker date="1511063330000" expanded="true" signature="434:562" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TransactionTypeController.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/TransactionTypeController.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1511068206000" expanded="true" signature="6:92" ph="..." />
+                    <marker date="1511068206000" expanded="true" signature="130:1199" ph="{...}" />
+                    <marker date="1511068206000" expanded="true" signature="188:1197" ph="{...}" />
+                    <marker date="1511068206000" expanded="true" signature="358:440" ph="{...}" />
+                    <marker date="1511068206000" expanded="true" signature="525:708" ph="{...}" />
+                    <marker date="1511068206000" expanded="true" signature="788:975" ph="{...}" />
+                    <marker date="1511068206000" expanded="true" signature="1026:1191" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ErrorViewModel.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Models/ErrorViewModel.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1510895221000" expanded="true" signature="46:212" ph="{...}" />
+                    <marker date="1510895221000" expanded="true" signature="80:210" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Startup.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="32" column="85" lean-forward="false" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
+                  <folding>
+                    <marker date="1511069553000" expanded="false" signature="6:290" ph="..." />
+                    <marker date="1511069553000" expanded="true" signature="316:1941" ph="{...}" />
+                    <marker date="1511069553000" expanded="true" signature="343:1939" ph="{...}" />
+                    <marker date="1511069553000" expanded="true" signature="402:465" ph="{...}" />
+                    <marker date="1511069553000" expanded="true" signature="688:1268" ph="{...}" />
+                    <marker date="1511069553000" expanded="true" signature="1456:1933" ph="{...}" />
+                    <marker date="1511069553000" expanded="true" signature="1503:1580" ph="{...}" />
+                    <marker date="1511069553000" expanded="true" signature="1597:1681" ph="{...}" />
+                    <marker date="1511069553000" expanded="true" signature="1750:1921" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="site.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/wwwroot/js/site.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="transaction-type.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/wwwroot/js/transaction-type.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="223" lean-forward="false" selection-start-line="11" selection-start-column="223" selection-end-line="11" selection-end-column="223" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Shared/_Layout.cshtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="975">
+                  <caret line="65" column="64" lean-forward="false" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="64" />
+                  <folding>
+                    <marker date="1511062730000" expanded="true" signature="16:3333" ph="&lt;html.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="23:848" ph="&lt;head.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="196:386" ph="&lt;environment.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="391:840" ph="&lt;environment.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="849:3325" ph="&lt;body.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="860:1928" ph="&lt;nav.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="921:1917" ph="&lt;div.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="957:1476" ph="&lt;div.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="1001:1345" ph="&lt;button.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="1489:1902" ph="&lt;div.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="1544:1883" ph="&lt;ul.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="1933:2100" ph="&lt;div.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="2015:2089" ph="&lt;footer.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="2106:2360" ph="&lt;environment.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="2365:3269" ph="&lt;environment.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="2409:2757" ph="&lt;script.../&gt;" />
+                    <marker date="1511062730000" expanded="true" signature="2766:3175" ph="&lt;script.../&gt;" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ExpenseService.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Services/ExpenseService.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+                  <folding>
+                    <marker date="1511063069000" expanded="true" signature="6:222" ph="..." />
+                    <marker date="1511063069000" expanded="true" signature="257:1405" ph="{...}" />
+                    <marker date="1511063069000" expanded="true" signature="309:1403" ph="{...}" />
+                    <marker date="1511063069000" expanded="true" signature="441:497" ph="{...}" />
+                    <marker date="1511063069000" expanded="true" signature="559:1397" ph="{...}" />
+                    <marker date="1511063069000" expanded="true" signature="585:1294" ph="{...}" />
+                    <marker date="1511063069000" expanded="true" signature="680:1247" ph="{...}" />
+                    <marker date="1511063069000" expanded="true" signature="759:1071" ph="{...}" />
+                    <marker date="1511063069000" expanded="true" signature="1326:1387" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Income.cshtml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Income/Income.cshtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="885">
+                  <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+                  <folding>
+                    <marker date="1511119281000" expanded="true" signature="14:58" ph="@..." />
+                    <marker date="1511119281000" expanded="true" signature="118:1407" ph="&lt;form.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="245:376" ph="&lt;select.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="494:754" ph="&lt;div.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="760:1009" ph="&lt;div.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="1015:1326" ph="&lt;div.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="1134:1315" ph="&lt;div.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="1424:2693" ph="&lt;div.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="1525:2686" ph="&lt;div.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="1576:2675" ph="&lt;div.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="1616:1915" ph="&lt;div.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="1659:1821" ph="&lt;button.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="1928:2420" ph="&lt;div.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="1970:2400" ph="&lt;div.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="2059:2377" ph="&lt;table.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="2139:2348" ph="&lt;tr.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="2433:2660" ph="&lt;div.../&gt;" />
+                    <marker date="1511119281000" expanded="true" signature="2696:2768" ph="@{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TransactionTypeModal.cshtml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/TranactionType/TransactionTypeModal.cshtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Expense.cshtml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Expense/Expense.cshtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="615">
+                  <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
+                  <folding>
+                    <marker date="1511102253000" expanded="true" signature="15:60" ph="@..." />
+                    <marker date="1511102253000" expanded="true" signature="120:1489" ph="&lt;form.../&gt;" />
+                    <marker date="1511102253000" expanded="true" signature="249:498" ph="&lt;select.../&gt;" />
+                    <marker date="1511102253000" expanded="true" signature="573:833" ph="&lt;div.../&gt;" />
+                    <marker date="1511102253000" expanded="true" signature="839:1090" ph="&lt;div.../&gt;" />
+                    <marker date="1511102253000" expanded="true" signature="1096:1407" ph="&lt;div.../&gt;" />
+                    <marker date="1511102253000" expanded="true" signature="1215:1396" ph="&lt;div.../&gt;" />
+                    <marker date="1511102253000" expanded="true" signature="1492:1564" ph="@{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_ViewImports.cshtml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/_ViewImports.cshtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1510927918000" expanded="true" signature="7:50" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Error.cshtml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Shared/Error.cshtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1510895224000" expanded="true" signature="22:59" ph="@..." />
+                    <marker date="1510895224000" expanded="true" signature="176:289" ph="@..." />
+                    <marker date="1510895224000" expanded="true" signature="201:289" ph="{...}" />
+                    <marker date="1510895224000" expanded="true" signature="208:287" ph="&lt;p.../&gt;" />
+                    <marker date="1510895224000" expanded="true" signature="317:452" ph="&lt;p.../&gt;" />
+                    <marker date="1510895224000" expanded="true" signature="453:843" ph="&lt;p.../&gt;" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_ValidationScriptsPartial.cshtml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Shared/_ValidationScriptsPartial.cshtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
+                  <folding>
+                    <marker date="1511069230000" expanded="true" signature="0:221" ph="&lt;environment.../&gt;" />
+                    <marker date="1511069230000" expanded="true" signature="222:1153" ph="&lt;environment.../&gt;" />
+                    <marker date="1511069230000" expanded="true" signature="262:656" ph="&lt;script.../&gt;" />
+                    <marker date="1511069230000" expanded="true" signature="661:1138" ph="&lt;script.../&gt;" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="launchSettings.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Properties/launchSettings.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1510895224000" expanded="true" signature="19:193" ph="{...}" />
+                    <marker date="1510895224000" expanded="true" signature="112:189" ph="{...}" />
+                    <marker date="1510895224000" expanded="true" signature="230:389" ph="{...}" />
+                    <marker date="1510895224000" expanded="true" signature="326:383" ph="{...}" />
+                    <marker date="1510895224000" expanded="true" signature="413:619" ph="{...}" />
+                    <marker date="1510895224000" expanded="true" signature="506:563" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_ViewStart.cshtml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/_ViewStart.cshtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1510895224000" expanded="true" signature="0:28" ph="@..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TransactionTypeService.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NicoleBusiness/Services/TransactionTypeService.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="624">
+                  <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+                  <folding>
+                    <marker date="1511069587000" expanded="true" signature="6:93" ph="..." />
+                    <marker date="1511069587000" expanded="true" signature="128:3302" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="196:3300" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="337:393" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="474:1404" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="500:1178" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="595:1164" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="682:880" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="1033:1145" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="1210:1394" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="1278:1379" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="1480:2752" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="1506:2455" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="1601:2441" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="1769:1876" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="1901:2243" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="1993:2220" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="2306:2422" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="2487:2742" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="2555:2727" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="2799:3294" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="2825:3028" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="2893:3013" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="3060:3282" ph="{...}" />
+                    <marker date="1511069587000" expanded="true" signature="3128:3267" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Income</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Expense</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Contracts/IIncomeService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Views/Income/Income.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/TransactionTypeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B3824083-29EE-4512-A838-FCA9F4A05F42/25/1d175f02/ServiceCollectionServiceExtensions.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Contracts/IExpenseService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/ExpenseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Services/ExpenseService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Views/Expense/Expense.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Contracts/ITransactionTypeService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/wwwroot/lib/jquery/.bower.json" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Services/TransactionTypeService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Models/ApiResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/314C6FA0-B796-4513-9A37-8CEDB06452F0/e3/7e4d934e/Controller.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/928C9570-91EA-4C8C-9203-C5100319586E/3a/e5366a56/IActionResult.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Services/IncomeService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Models/NicoleBusinessDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Models/TransactionType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Models/Income.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Models/Expense.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7469EA46-1AEA-47E2-BA3B-AAD4E0506E84/bd/855ee853/ControllerBase.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/IncomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NicoleBusiness/Views/Home/Income.cshtml" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Services/Income.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/IncomeInterface.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Contracts/IncomeInterface.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Contracts/IIncomeService.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Contracts/IExpenseService.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Views/Expense/Expense.cshtml.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Models/Expense.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Services/ExpenseService.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Controllers/ExpenseController.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Models/TransactionType.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Models/NicoleBusinessDbContext.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Models/ApiResult.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7469EA46-1AEA-47E2-BA3B-AAD4E0506E84/bd/855ee853/ControllerBase.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Contracts/ITransactionTypeService.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Controllers/TransactionTypeController.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Controllers/IncomeController.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Views/Shared/_ValidationScriptsPartial.cshtml" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Startup.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Services/TransactionTypeService.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Services/IncomeService.cs" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/wwwroot/js/site.js" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Views/Expense/Expense.cshtml" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Views/Shared/TransactionTypeModal.cshtml.html" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/wwwroot/js/transaction-type.js" />
+        <option value="$PROJECT_DIR$/NicoleBusiness/Views/Income/Income.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="2880" />
+    <option name="height" value="1620" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Contracts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Expense" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Home" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Income" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Shared" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TranactionType" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="js" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NicoleBusiness (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NicoleBusiness" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="lib" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/NicoleBusiness/bin/Debug/netcoreapp2.0/NicoleBusiness.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NicoleBusiness" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/NicoleBusiness/NicoleBusiness.csproj" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="930da949-552f-4ab4-a2f6-452df6bd7123" name="Default" comment="" />
+      <created>1510981324114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510981324114</updated>
+      <workItem from="1510981326529" duration="9147000" />
+      <workItem from="1511027226695" duration="23819000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32966000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2880" height="1620" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19490446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121527776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/NicoleBusiness/Services/IncomeService.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/NicoleBusiness/Services/IncomeService.cs">
+            <startOffsets>
+              <startOffset value="1761" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1762" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/NicoleBusiness/Services/ExpenseService.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/NicoleBusiness/Services/ExpenseService.cs">
+            <startOffsets>
+              <startOffset value="1339" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1340" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/IncomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1511062123000" expanded="true" signature="6:92" ph="..." />
+            <marker date="1511062123000" expanded="true" signature="130:627" ph="{...}" />
+            <marker date="1511062123000" expanded="true" signature="179:625" ph="{...}" />
+            <marker date="1511062123000" expanded="true" signature="312:376" ph="{...}" />
+            <marker date="1511062123000" expanded="true" signature="432:619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <marker date="1511062596000" expanded="false" signature="6:183" ph="..." />
+            <marker date="1511062596000" expanded="true" signature="221:1068" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="268:1066" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="311:358" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="397:546" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="594:745" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="785:889" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="927:1060" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Models/TransactionType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511064269000" expanded="true" signature="45:270" ph="{...}" />
+            <marker date="1511064269000" expanded="true" signature="80:268" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Models/Income.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <marker date="1510898883000" expanded="true" signature="45:318" ph="{...}" />
+            <marker date="1510898883000" expanded="true" signature="71:316" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Services/IncomeService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <marker date="1511071163000" expanded="false" signature="6:197" ph="..." />
+            <marker date="1511071163000" expanded="true" signature="232:1827" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="282:1825" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="413:469" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="511:1819" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="537:1717" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="631:1670" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="782:1054" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="1527:1652" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="1748:1809" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Contracts/IIncomeService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1511027329000" expanded="true" signature="64:151" ph="{...}" />
+            <marker date="1511027329000" expanded="true" signature="102:149" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Models/NicoleBusinessDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1511065339000" expanded="true" signature="69:986" ph="{...}" />
+            <marker date="1511065339000" expanded="true" signature="132:984" ph="{...}" />
+            <marker date="1511065339000" expanded="true" signature="452:472" ph="{...}" />
+            <marker date="1511065339000" expanded="true" signature="548:978" ph="{...}" />
+            <marker date="1511065339000" expanded="true" signature="559:968" ph="/* modelBuilder.Entity&lt;&gt;(entity =&gt; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <marker date="1511069553000" expanded="false" signature="6:290" ph="..." />
+            <marker date="1511069553000" expanded="true" signature="316:1941" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="343:1939" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="402:465" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="688:1268" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="1456:1933" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="1503:1580" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="1597:1681" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="1750:1921" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Income/Income.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511119281000" expanded="true" signature="14:58" ph="@..." />
+            <marker date="1511119281000" expanded="true" signature="118:1407" ph="&lt;form.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="245:376" ph="&lt;select.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="494:754" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="760:1009" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1015:1326" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1134:1315" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1424:2693" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1525:2686" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1576:2675" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1616:1915" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1659:1821" ph="&lt;button.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1928:2420" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1970:2400" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="2059:2377" ph="&lt;table.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="2139:2348" ph="&lt;tr.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="2433:2660" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="2696:2768" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/314C6FA0-B796-4513-9A37-8CEDB06452F0/e3/7e4d934e/Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="99" column="30" lean-forward="false" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B3824083-29EE-4512-A838-FCA9F4A05F42/25/1d175f02/ServiceCollectionServiceExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="329" column="37" lean-forward="false" selection-start-line="329" selection-start-column="37" selection-end-line="329" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Contracts/IIncomeService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1511027329000" expanded="true" signature="64:151" ph="{...}" />
+            <marker date="1511027329000" expanded="true" signature="102:149" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Contracts/IExpenseService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <marker date="1511060690000" expanded="true" signature="64:164" ph="{...}" />
+            <marker date="1511060690000" expanded="true" signature="103:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510895224000" expanded="true" signature="0:41" ph="@..." />
+            <marker date="1510895224000" expanded="true" signature="43:3048" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="134:439" ph="&lt;ol.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="444:2591" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="496:986" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="618:971" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="679:952" ph="&lt;p.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="778:931" ph="&lt;a.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="995:1508" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="1116:1493" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="1177:1474" ph="&lt;p.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="1300:1453" ph="&lt;a.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="1517:2043" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="1643:2028" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="1704:2009" ph="&lt;p.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="1835:1988" ph="&lt;a.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="2052:2580" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="2175:2565" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="2236:2546" ph="&lt;p.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="2372:2525" ph="&lt;a.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="2596:2817" ph="&lt;a.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="2822:3041" ph="&lt;a.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="3050:5575" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="3072:3452" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="3137:3441" ph="&lt;ul.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="3457:4245" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="3512:4234" ph="&lt;ul.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="4250:5133" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="4307:5122" ph="&lt;ul.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="5138:5568" ph="&lt;div.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="5203:5557" ph="&lt;ul.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <marker date="1511062596000" expanded="false" signature="6:183" ph="..." />
+            <marker date="1511062596000" expanded="true" signature="221:1068" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="268:1066" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="311:358" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="397:546" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="594:745" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="785:889" ph="{...}" />
+            <marker date="1511062596000" expanded="true" signature="927:1060" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Models/Income.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <marker date="1510898883000" expanded="true" signature="45:318" ph="{...}" />
+            <marker date="1510898883000" expanded="true" signature="71:316" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Models/Expense.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <marker date="1511063051000" expanded="true" signature="45:365" ph="{...}" />
+            <marker date="1511063051000" expanded="true" signature="72:363" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Services/ExpenseService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <marker date="1511063069000" expanded="true" signature="6:222" ph="..." />
+            <marker date="1511063069000" expanded="true" signature="257:1405" ph="{...}" />
+            <marker date="1511063069000" expanded="true" signature="309:1403" ph="{...}" />
+            <marker date="1511063069000" expanded="true" signature="441:497" ph="{...}" />
+            <marker date="1511063069000" expanded="true" signature="559:1397" ph="{...}" />
+            <marker date="1511063069000" expanded="true" signature="585:1294" ph="{...}" />
+            <marker date="1511063069000" expanded="true" signature="680:1247" ph="{...}" />
+            <marker date="1511063069000" expanded="true" signature="759:1071" ph="{...}" />
+            <marker date="1511063069000" expanded="true" signature="1326:1387" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/ExpenseController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <marker date="1511063330000" expanded="true" signature="6:92" ph="..." />
+            <marker date="1511063330000" expanded="true" signature="130:570" ph="{...}" />
+            <marker date="1511063330000" expanded="true" signature="180:568" ph="{...}" />
+            <marker date="1511063330000" expanded="true" signature="310:376" ph="{...}" />
+            <marker date="1511063330000" expanded="true" signature="434:562" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Models/NicoleBusinessDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+          <folding>
+            <marker date="1511065339000" expanded="true" signature="69:986" ph="{...}" />
+            <marker date="1511065339000" expanded="true" signature="132:984" ph="{...}" />
+            <marker date="1511065339000" expanded="true" signature="452:472" ph="{...}" />
+            <marker date="1511065339000" expanded="true" signature="548:978" ph="{...}" />
+            <marker date="1511065339000" expanded="true" signature="559:968" ph="/* modelBuilder.Entity&lt;&gt;(entity =&gt; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/928C9570-91EA-4C8C-9203-C5100319586E/3a/e5366a56/IActionResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Models/ApiResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1511066752000" expanded="true" signature="64:245" ph="{...}" />
+            <marker date="1511066752000" expanded="true" signature="93:243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Models/TransactionType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1511064269000" expanded="true" signature="45:270" ph="{...}" />
+            <marker date="1511064269000" expanded="true" signature="80:268" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7469EA46-1AEA-47E2-BA3B-AAD4E0506E84/bd/855ee853/ControllerBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="386" column="34" lean-forward="false" selection-start-line="386" selection-start-column="34" selection-end-line="386" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Contracts/ITransactionTypeService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="73" lean-forward="false" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+          <folding>
+            <marker date="1511068147000" expanded="true" signature="64:308" ph="{...}" />
+            <marker date="1511068147000" expanded="true" signature="111:306" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Models/ErrorViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510895221000" expanded="true" signature="46:212" ph="{...}" />
+            <marker date="1510895221000" expanded="true" signature="80:210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/wwwroot/js/site.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/TransactionTypeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511068206000" expanded="true" signature="6:92" ph="..." />
+            <marker date="1511068206000" expanded="true" signature="130:1199" ph="{...}" />
+            <marker date="1511068206000" expanded="true" signature="188:1197" ph="{...}" />
+            <marker date="1511068206000" expanded="true" signature="358:440" ph="{...}" />
+            <marker date="1511068206000" expanded="true" signature="525:708" ph="{...}" />
+            <marker date="1511068206000" expanded="true" signature="788:975" ph="{...}" />
+            <marker date="1511068206000" expanded="true" signature="1026:1191" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Shared/Error.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510895224000" expanded="true" signature="22:59" ph="@..." />
+            <marker date="1510895224000" expanded="true" signature="176:289" ph="@..." />
+            <marker date="1510895224000" expanded="true" signature="201:289" ph="{...}" />
+            <marker date="1510895224000" expanded="true" signature="208:287" ph="&lt;p.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="317:452" ph="&lt;p.../&gt;" />
+            <marker date="1510895224000" expanded="true" signature="453:843" ph="&lt;p.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="85" lean-forward="false" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
+          <folding>
+            <marker date="1511069553000" expanded="false" signature="6:290" ph="..." />
+            <marker date="1511069553000" expanded="true" signature="316:1941" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="343:1939" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="402:465" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="688:1268" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="1456:1933" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="1503:1580" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="1597:1681" ph="{...}" />
+            <marker date="1511069553000" expanded="true" signature="1750:1921" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Controllers/IncomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1511062123000" expanded="true" signature="6:92" ph="..." />
+            <marker date="1511062123000" expanded="true" signature="130:627" ph="{...}" />
+            <marker date="1511062123000" expanded="true" signature="179:625" ph="{...}" />
+            <marker date="1511062123000" expanded="true" signature="312:376" ph="{...}" />
+            <marker date="1511062123000" expanded="true" signature="432:619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Services/IncomeService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+          <folding>
+            <marker date="1511071163000" expanded="false" signature="6:197" ph="..." />
+            <marker date="1511071163000" expanded="true" signature="232:1827" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="282:1825" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="413:469" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="511:1819" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="537:1717" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="631:1670" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="782:1054" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="1527:1652" ph="{...}" />
+            <marker date="1511071163000" expanded="true" signature="1748:1809" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Services/TransactionTypeService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <marker date="1511069587000" expanded="true" signature="6:93" ph="..." />
+            <marker date="1511069587000" expanded="true" signature="128:3302" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="196:3300" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="337:393" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="474:1404" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="500:1178" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="595:1164" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="682:880" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="1033:1145" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="1210:1394" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="1278:1379" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="1480:2752" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="1506:2455" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="1601:2441" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="1769:1876" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="1901:2243" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="1993:2220" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="2306:2422" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="2487:2742" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="2555:2727" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="2799:3294" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="2825:3028" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="2893:3013" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="3060:3282" ph="{...}" />
+            <marker date="1511069587000" expanded="true" signature="3128:3267" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510895224000" expanded="true" signature="19:193" ph="{...}" />
+            <marker date="1510895224000" expanded="true" signature="112:189" ph="{...}" />
+            <marker date="1510895224000" expanded="true" signature="230:389" ph="{...}" />
+            <marker date="1510895224000" expanded="true" signature="326:383" ph="{...}" />
+            <marker date="1510895224000" expanded="true" signature="413:619" ph="{...}" />
+            <marker date="1510895224000" expanded="true" signature="506:563" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510895224000" expanded="true" signature="0:28" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/wwwroot/js/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510927918000" expanded="true" signature="7:50" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="64" lean-forward="false" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="64" />
+          <folding>
+            <marker date="1511062730000" expanded="true" signature="16:3333" ph="&lt;html.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="23:848" ph="&lt;head.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="196:386" ph="&lt;environment.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="391:840" ph="&lt;environment.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="849:3325" ph="&lt;body.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="860:1928" ph="&lt;nav.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="921:1917" ph="&lt;div.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="957:1476" ph="&lt;div.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="1001:1345" ph="&lt;button.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="1489:1902" ph="&lt;div.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="1544:1883" ph="&lt;ul.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="1933:2100" ph="&lt;div.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="2015:2089" ph="&lt;footer.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="2106:2360" ph="&lt;environment.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="2365:3269" ph="&lt;environment.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="2409:2757" ph="&lt;script.../&gt;" />
+            <marker date="1511062730000" expanded="true" signature="2766:3175" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Expense/Expense.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <marker date="1511102253000" expanded="true" signature="15:60" ph="@..." />
+            <marker date="1511102253000" expanded="true" signature="120:1489" ph="&lt;form.../&gt;" />
+            <marker date="1511102253000" expanded="true" signature="249:498" ph="&lt;select.../&gt;" />
+            <marker date="1511102253000" expanded="true" signature="573:833" ph="&lt;div.../&gt;" />
+            <marker date="1511102253000" expanded="true" signature="839:1090" ph="&lt;div.../&gt;" />
+            <marker date="1511102253000" expanded="true" signature="1096:1407" ph="&lt;div.../&gt;" />
+            <marker date="1511102253000" expanded="true" signature="1215:1396" ph="&lt;div.../&gt;" />
+            <marker date="1511102253000" expanded="true" signature="1492:1564" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/TranactionType/TransactionTypeModal.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Shared/_ValidationScriptsPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
+          <folding>
+            <marker date="1511069230000" expanded="true" signature="0:221" ph="&lt;environment.../&gt;" />
+            <marker date="1511069230000" expanded="true" signature="222:1153" ph="&lt;environment.../&gt;" />
+            <marker date="1511069230000" expanded="true" signature="262:656" ph="&lt;script.../&gt;" />
+            <marker date="1511069230000" expanded="true" signature="661:1138" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/wwwroot/js/transaction-type.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="223" lean-forward="false" selection-start-line="11" selection-start-column="223" selection-end-line="11" selection-end-column="223" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NicoleBusiness/Views/Income/Income.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <folding>
+            <marker date="1511119281000" expanded="true" signature="14:58" ph="@..." />
+            <marker date="1511119281000" expanded="true" signature="118:1407" ph="&lt;form.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="245:376" ph="&lt;select.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="494:754" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="760:1009" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1015:1326" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1134:1315" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1424:2693" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1525:2686" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1576:2675" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1616:1915" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1659:1821" ph="&lt;button.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1928:2420" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="1970:2400" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="2059:2377" ph="&lt;table.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="2139:2348" ph="&lt;tr.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="2433:2660" ph="&lt;div.../&gt;" />
+            <marker date="1511119281000" expanded="true" signature="2696:2768" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
